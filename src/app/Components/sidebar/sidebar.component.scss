@@ -1,0 +1,113 @@
+
+.sidebar {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 253px;
+  row-gap: 2.5rem;
+}
+
+.sidebar-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-menu img {
+  margin-left: 3rem;
+}
+
+.menu {
+  color: #00000080;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  width: 158px;
+  height: 16px;
+}
+.active{
+  color: #000000;
+}
+.icon {
+  margin-right: 10px;
+}
+
+.profile {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border: none;
+  width: 89px;
+  height: 26px;
+  margin-left: 82px;
+  margin-top: 30px;
+  background-color: #d9d9d9;
+}
+
+.profile-top {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.profile-top img {
+  margin: auto;
+}
+
+
+@media screen and (max-width: 550px) {
+  .logo{
+    display: none;
+  }
+  .sidebar {
+    row-gap: 0.5rem;
+    padding: 0.5rem;
+    background-color: #fff4e9;
+    
+  }
+
+  .sidebar-menu {
+    display: none;
+  }
+
+  .menu {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .btn {
+    width: 40px;
+    height: 26px;
+    margin: 0 auto;
+    margin-top: 5px;
+  }
+
+  .profile-bottom {
+    display: none; 
+  }
+
+  .profile {
+    width: 100vw;
+  }
+
+
+  .profile-img {
+    width: 67px;
+    height: 67px;
+  }
+}
