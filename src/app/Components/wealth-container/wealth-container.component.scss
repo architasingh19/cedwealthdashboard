@@ -1,7 +1,6 @@
 .wealth {
   display: flex;
   box-shadow: 1px 1px 6px 3px #0000000A;
-
   align-items: center;
   gap: 0.875rem; 
   background-color: #fff;
@@ -49,8 +48,9 @@
 @media screen and (max-width: 550px) {
   .wealth {
     flex-direction: row;
-    margin-top: 30px;
-    gap: 0.5rem; 
+    margin-top: 69px;
+    gap: 0.5rem;
+    width: calc(100% - 25px);
   }
 
   .date {
@@ -62,5 +62,18 @@
   .decription {
     font-size: 12px; 
     line-height: 1rem; 
+  }
+  .wealth-container{
+    opacity: 0.6;
+    color:grey;
+    font-size:10px;
+    font-weight: 700px;
+    margin-bottom:4px;
+    margin-top: 4px;
+  
+  }
+  .container_web{
+    display: flex;
+    gap:20px;
   }
 }
